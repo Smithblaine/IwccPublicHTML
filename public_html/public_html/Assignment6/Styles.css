@@ -1,0 +1,46 @@
+/* 
+	 Author: Blaine Smith  
+	 Date:   11-22-17  
+	 Filename: styles.css
+*/
+form 
+{
+    width: 665px;
+    margin-top: 50 px;
+    margin: 0 auto;
+    font-size: 2;
+    background-color: gray;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+label 
+{
+
+}
+
+input
+{
+    font-size: 16px;
+    width: 85px;
+}
+
+button
+{
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+body
+{
+background: linear-gradient(to bottom right,red, blue, white);
+background-attachment: no-repeat;
+}
+
+#div1
+{
+    padding: 5px;
+    margin:0 auto;
+    width: 1000px;
+    background: radial-gradient(yellow, purple, greenyellow)
+}

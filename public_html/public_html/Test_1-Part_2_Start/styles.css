@@ -1,0 +1,59 @@
+/*
+Blaine Smith
+	Test part2
+	10/13/17
+    
+    
+    Test 1 Part 2 Requirements: (NOTE: Most of the requirements will be made in the styles.css file!)
+       d 1. change the width of the div tags to 500px.
+       d 2. move the card class items to be centered horizontally.
+       d 3. add a margin so that the cards are 50 pixels from the top of the page.
+       d 4. add a box shadow to the cards.
+       d 5. place a border around the main tag.
+       d 6. be sure the padding from the cards to the border around main is adequate.
+       d 7. change the background color for main, the card items, and the body. use a gradient option.
+       d 8. add some space between each card item.
+       d 9. use a border radius to round the corners of each card item.
+       d 10. for the correct answer, change the background to white and the font-color to purple and bold.
+       d 11. increase the font size of the question class and change the font-color and font-weight (your choice).
+*/
+body{
+	 background: linear-gradient(to bottom right,#dd433b,#f25cae,#b644d6,#dd433b,#f25cae,#b644d6);
+	 padding: 50px;
+}
+.card {
+    width: 500px;
+    background-color: #eee;
+    border: solid 1px black;
+    padding: 10px;
+	margin-top: 50px;
+	margin-bottom: 5px;
+	position: relative;
+	left: 30%;
+	box-shadow: 5px 5px 3px 4px #87ebed;
+	border-radius: 15px;
+	
+ }
+ .question{
+	 font-weight: bold;
+	 font-size: 18px;
+ }
+ .answer {
+	 background: white;
+	 font-weight: bold;
+	 color: purple;
+ }
+ 
+ 
+ main {
+	 border: solid 1px black;
+	 border-radius: 15px;
+	 background: radial-gradient(#87ebed,#683e22 ,#87ebed);
+	 box-shadow:5px 5px 3px 4px purple;
+	 padding-bottom: 20px;
+	 padding-top: 20px;
+	 margin: 10%;
+	 left: 15%;
+	 right: 15%;
+ }
+ 

@@ -1,0 +1,116 @@
+﻿/* 
+  STEPS:
+	  1. Add your name as the author and add the date to this comment below!
+	  2. You should not change any of the styles in the "reset styles" section.
+	  3. Review the other defined styles, make modifications, pick something you like and displays well in the browser.
+	  4. Test prior to submission.
+	 
+
+	 Author: Blaine Smith  
+	 Date:   9-27-17  
+	 Filename: styles.css
+*/
+
+/* reset styles */
+html {
+   font-size: 16px;
+}
+* {
+   padding: 0;
+   margin: 0;
+}
+
+
+/* document-wide styles */
+body {
+   margin: 0 auto;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: blue;
+}
+
+
+/* header section */
+/*change this section options to what ever you want, but at least make it different! */
+h1 {
+   text-align: left;
+   font-family: hellow;
+   font-weight: 2em;
+   color: ;
+   background-color: lightyellow;
+   font-size: 3em;
+}
+
+/* site navigation bar */
+/*change this section options to what ever you want, but at least make it different! */
+nav.sitenavigation {
+   color: #0e340f;
+   font-weight: bold;
+   text-align: center;
+   background-color: teal;
+}
+nav.sitenavigation li {
+   margin: 1em 2em;
+   display: inline-block;
+   font-size: 1em;
+   line-height: 1em;
+}
+nav.sitenavigation a:link {
+   text-decoration: none;
+   color: #0e340f;
+}
+nav.sitenavigation a:visited {
+   color: blue;
+}
+nav.sitenavigation a:hover, nav.sitenavigation a:focus {
+   color: red;
+}
+
+/* main content */
+/*change this section options to what ever you want, but at least make it different! */
+article {
+   margin: 0 auto;
+   padding: 1em;
+   background-color: ;
+   background: url("images/water.jpg");
+}
+.container {
+   min-width: 100px;
+   max-width: 2000px;
+   border: ;
+   background-color: white;
+   text-align: center;
+}
+form
+{
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+	width:100px;
+    text-align: left;
+}
+input {
+  display: inline-block;
+  width:200px;
+  height: 20px;
+}
+
+h2 {
+   
+}
+h3 {
+
+}
+
+/* footer section */
+/*change this section options to what ever you want, but at least make it different! */
+footer {
+   padding: 1em;
+   background-color: black;
+   color: white;
+   text-align: center;
+}

@@ -1,0 +1,108 @@
+﻿
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Goose Hunters Unlimited</title>
+      <!-- 
+        STEPS:
+		  1. Save the file starting_assign2.html as assign2.html
+		  2. Change the title above in this document
+		  3. Add your name as the author and add the date to this comment below!
+		  4. Review the header element contents and find an image for this area. Also, modify the width, height, and alt as appropriate.
+		  5. Display the page in the browser. Review what you see. Use your creative instincts to modify the html and css.
+		  6. Incorporate, css and html coding as defined in the textbook through Chapters 1-4.
+         
+
+         Author: Blaine  
+         Date:   9-27-17  
+         Filename: assign2.html
+      -->
+      <meta charset="utf-8">
+      
+      <link rel="stylesheet" href="styles.css">
+      
+   </head>
+   <body>
+      <header>
+         <h1><a href="assign2.html"><img src="images/lakeland.gif" width="659" height="165" alt="Image not Available"></a></h1>
+      </header>
+      <nav class="sitenavigation">
+         <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="reserve.html">Reservations</a></li>
+			<li><a href="events.html">Events</a></li>
+            <li><a href="assign2.html">Contact Us</a></li>
+         </ul>
+      </nav>
+	  
+      <article id="contentstart">
+		
+		<div>		
+		
+			<form action="/results.html" autocomplete="on">
+				<form>
+					<label>First Name:</label>
+					<input type="text" name="Fname" placeholder="First Name">
+				</form>
+				<form>
+					<label>Last Name:</label>
+					<input type="text" name="Lname" placeholder="Last Name">
+				</form>
+				<form>
+					<label>Address:</label>
+					<input type="text" name="Address" placeholder="Address">
+				</form>
+				<form>
+					<label>City:</label>
+					<input type="text" name="city" placeholder="City">
+				</form>
+				<form>
+					<label>State:</label>
+					<input type="text" name="state" placeholder="State">
+				</form>
+				<form>
+					<label>Zip Code:</label>
+					<input type="text" name="zipcode" placeholder="Zip Code">
+				</form>
+					<form>
+						<label>Gender:</label>
+					</form>
+				<form>
+					<label>Male:</label>
+					<input type="radio" name ="Male">
+				</form>
+				<form>
+					<label>Female:</label>
+					<input type ="radio" name = "Female">
+				</form>
+				<form>
+				<textarea rows ="4" cols ="50" placeholder ="Comments"></textarea>
+				</form>
+				<form>
+					<button type="submit">Submit</button>
+				</form>
+				<form>
+					<button type="reset">Reset</button>
+				</form>
+			</form autocomplete="off">
+		</div>
+		
+         <div class="container">
+            <h2>Contact Us</h2>
+         </div>
+      </article>
+      <footer>
+         <p>Blaine Smith, 0291257, 10/6/2017</p>
+		<p id="time"></p>
+
+		<script>
+
+			document.getElementById("time").innerHTML = Date();
+
+		</script>
+      </footer>
+	<label><a href="index.html">Home</a></label>
+   </body>
+</html>

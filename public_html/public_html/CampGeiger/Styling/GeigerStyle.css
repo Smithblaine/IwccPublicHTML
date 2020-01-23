@@ -1,0 +1,27 @@
+.dropdown-menu
+{
+    height: 200px;
+    overflow: auto;
+}
+#navbarDropdownMenuLink{
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#icons, #campGeiger{
+    text-align: center;
+}
+
+.anchor {
+  position: absolute;
+  transform: translateY(-50vh);
+}
+
+#backToTop{
+  text-align: right;
+  color: white;
+  position: sticky;
+  bottom: 1rem;
+  align-self: flex-end;
+}

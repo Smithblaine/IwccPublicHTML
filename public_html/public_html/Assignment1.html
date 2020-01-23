@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+	<meta charset="UTF-8">
+	<style>
+		body {
+			font-size: 14px;
+			background-color: yellow;
+			color: green;
+		}
+		#head1 {
+			color: green;
+		}
+		h3, ul ,li {
+			border: 2px solid red;
+		}
+		h3 {
+			margin-bottom: 0;
+		}
+		ul, ol {
+			padding-top: 0;
+			margin-top: 0;
+			font-family: serifs;
+		}
+		p.thick {
+			font-weight: bold;
+		}
+	</style>
+	<title> My Home Page </title>
+ </head>
+ 
+ <body>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Branta_canadensis_-near_Oceanville,_New_Jersey,_USA_-flying-8.jpg"/>
+		
+ <h1 id ="head1"> Blaine Smith </h1>
+ 
+	<p class="thick">I went to Abraham Lincoln High School and graduated in the May of 2012. My major is Web Application and Computer Programming.
+					I enjoy computer work although it may be tedious I have the patience to sit there and trudge through till it is done. I intend on 
+					making the Presidents Honor Roll</p>
+ 
+	<h3> Hobbies: </h3>
+		<ul>
+			<li>Fishing</li>
+			<li>Hunting</li>
+			<li>Computer games</li>
+		</ul>
+	<h3> Favorite Foods: </h3>
+		<ol>
+			<li>Ramen</li>
+			<li>Salads</li>
+			<li>Casseroles</li>
+		</ol>
+ 
+	<p><a href="https://www.sololearn.com/">What I spend the most time on.</a></p>
+
+	<p id="time"></p>
+
+<script>
+
+document.getElementById("time").innerHTML = Date();
+
+</script>
+ <label><a href="index.html">Home</a></label>
+ </body>
+</html>

@@ -1,0 +1,32 @@
+-Github account
+    Account user name - campgeigerbsa@gmail.com
+    password - Geiger2019
+
+-GitHub Account using the test email account
+    CampGeigerApps@gmail.com
+    Geiger2019
+
+-Test email account
+    CampGeigerApps@gmail.com
+    Password - Geiger2019
+
+-www.000WebHost.com websites
+    CampGeigerApps@gmail.com
+    CampGeigerBSA
+    Password - Geiger2019
+
+-Database name 
+    BSAGeigerActivities
+
+-Database user and password and email used for the login
+    CampGeigerApps@gmail.com
+    User - CampGeigerAdmin
+    Password - Geiger2019
+
+-Infinityfree.net
+    CampGeigerApps@gmail.com
+    Geiger2019
+
+-campgeigerapps.epizy.com
+    Database name - epiz_23295849_Geiger2019
+    Username -epiz_23295849

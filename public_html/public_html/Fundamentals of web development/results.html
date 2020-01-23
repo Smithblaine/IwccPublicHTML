@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Lakeland Reeds Bed &amp; Breakfast - Results</title>
+      <!-- 
+         Lakeland Reeds Bed & Breakfast Results page
+         Filename: contact.html
+
+         Author:   
+         Date:     
+         HTML5 and CSS3 Illustrated Unit J, Lessons
+      -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <script src="modernizr.custom.40753.js"></script>
+      <link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="icon" sizes="192x192" href="images/android.png">
+   </head>
+   <body>
+      <p class="skipnavigation"><a href="#contentstart">Skip navigation</a></p> 
+      <header>
+         <h1><a href="index.html"><img src="images/lakeland.gif" width="659" height="165" alt="Lakeland Reeds Bed and Breakfast"></a></h1>
+      </header>
+      <nav class="sitenavigation">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="reserve.html">Reservations</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+         </ul>
+      </nav>
+      <article id="contentstart">
+         <div class="container">
+            <h2>Your form has been submitted</h2>
+            <div class="results">
+               <h3>You entered the following data:</h3>
+         
+               <script>
+                   var formData = location.search;
+                   formData = formData.substring(1, formData.length);
+                   while (formData.indexOf("+") !== -1) {
+                      formData = formData.replace("+", " ");
+                   }
+                   formData = decodeURIComponent(formData);
+                   var formArray = formData.split("&");
+                   for (var i = 0; i < formArray.length; i = i + 1) {
+                      document.write("<p>" + formArray[i] + "</p>");
+                   }
+               </script>
+            </div>
+         </div>
+      </article>
+      <footer>
+         <p>45 Marsh Grass Ln. &bull; Marble, MN 55764 &bull; (218) 555-5253</p>
+      </footer>
+   </body>
+</html>

@@ -1,0 +1,84 @@
+<!doctype html>
+<!--Created By: Blaine Smith
+    Student of Iowa Western Community College
+    Notes:
+            This project was created in the effort to dynamically create a list of activities
+        for a local boy scout group so that the scouts will have an up to date list of all activities.-->
+
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+       
+        <!--Styling for icons that are used at the bottom of the page-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        
+        <!--Custom styling-->
+        <link rel="stylesheet" href="Styling/GeigerStyle.css">
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+        <!-- Custom JQuery for this page -->
+        <script src="Javascript/GeigerJS.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <title>Camp Geiger Activities</title>
+    </head>
+    
+    <!-- This is just the div container that will bring the user back to the top of the page once they click on the link at the bottom of the page -->
+    <div id="topAnchor">
+      <a id="top"></a>
+    </div>
+
+    <!-- This is the navigation bar at the top that is taking car of the drop down as well as the link that is there for visiting the Camp Geiger website. -->
+    <body class="p-3 mb-2 bg-info">
+        <nav class="nav justify-content-center navbar-light bg-dark">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Activities List</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        </div>
+                    </li>
+                </ul>
+            <a class="nav-link" href="http://www.campgeigerbsa.org/" target="_blank">CAMP GEIGER HOME</a>
+        </nav>
+
+        <br>
+
+        <!-- A Bootstrap spinner that will be hidden by the JQuery once it is done gathering the data from the database. -->
+        <div class="text-center">
+            <div class="spinner-border" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+
+        <!-- This container will only hoold all of the drop down items that are appended into this document by the JQuery. -->
+        <div id="dropDownActivities">
+
+        </div>
+
+        <!-- This section is for the links that are going back to the content creators media sites. -->
+        <div id="icons">
+            <hr/>
+            <p>Content Creators Links</p>
+        </div>
+
+        <!-- This container is for Camp Geiger exclusive content links -->
+        <div id="campGeiger">
+            <hr/>
+            <p>Camp Geiger Links</p>
+        </div>
+
+        <!-- This container will allow the user to click the link and take them back to the top of the page. -->
+        <div id="backToTop" class="position-sticky">
+          <a href="#top">
+            <i class="fas fa-arrow-alt-circle-up" style="font-size:4em; color:black;"></i>
+          </a>
+        </div>
+    </body>
+</html>

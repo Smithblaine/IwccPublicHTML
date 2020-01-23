@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+
+<head>
+    
+<title>Test Scores</title>
+<link rel="stylesheet" type= "text/css" href="Styles.css">
+
+</head>
+    <body>
+        <div id = "div1">
+            <form>
+                <label for="score1">Test Score 1</label>
+                <input type="text" name="score1" id ="score1">
+                <label>Letter Grade =   </label> <span id = "grade1"> * </span>
+                <label for="date1">Date 1</label>
+                <input type="text" name="date1" id ="date1">
+                <span id = "dateF1">**</span>
+                <br>
+                <br>
+                <label for="score2">Test Score 2</label>
+                <input type="text" name="score2" id ="score2">
+                <label>Letter Grade =   </label> <span id = "grade2"> * </span>
+                <label for="date2">Date 2</label>
+                <input type="text" name="date2" id ="date2">
+                <span id = "dateF2">**</span>
+                <br>
+                <br>
+                <label for="score3">Test Score 3</label>
+                <input type="text" name="score3" id ="score3"> 
+                <label>Letter Grade =   </label> <span id = "grade3"> * </span>
+                <label for="date3">Date 3</label>
+                <input type="text" name="date3" id ="date3"> 
+                <span id = "dateF3">**</span> 
+            </form>
+
+            <br>
+
+            <button onclick ="calcAve()">Calculate Average</button>
+            <button onclick ="resetForm()">Reset Form</button>
+            <h1 id ="sum">Sum</h1>
+            <h1 id ="answer">Average</h1>
+            <h1 id ="avGrade">Average Grade</h1> 
+            <h1 id ="dateGrade">Todays Date</h1> 
+        </div>
+        <script src ="calc.js">
+        </script>
+<label><a href="../index.html">Home</a></label>
+    </body>
+</html>
